@@ -1,9 +1,16 @@
 .home-section{
-    padding-top: 100px;
+    /* padding-top: 100px; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url('https://cdn.dribbble.com/users/1956/screenshots/2901254/green-cart.gif');
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    /* position: relative; */
 }
 
 .search_results{
@@ -12,10 +19,6 @@
     border-radius: 7px;
     margin-top: 10px;
     padding: 10px;
-}
-
-.search_results p{
-    /* padding: 5px 3px; */
 }
 
 .search_results p a{

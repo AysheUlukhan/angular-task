@@ -1,5 +1,26 @@
 /* navbar.component.css */
 .navbar-nav .nav-link.active {
-    font-weight: bold;
-  }
-  
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link{
+  color: white;
+}
+
+.navbar-brand{
+  color: white;
+}
+
+.navbar {
+  width: 100% !important;
+  z-index: 20;
+  position: absolute;
+  top: 50px;
+}
+
+.navbar .navbar-xl{
+  background-color: #030349;
+  padding: 15px;
+  color: white !important;
+  border-radius: 50px;
+}
